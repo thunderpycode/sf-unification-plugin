@@ -1,65 +1,38 @@
-# sf-trivia README
+# sf-trivia Introduction
 
-This is the README for your extension "sf-trivia". After writing up a brief description, we recommend including the following sections.
+As a Salesforce developer, you often need to perform various tasks such as listing your connected Salesforce orgs, logging in to an org, assigning permission sets to users, deploying metadata, and creating new Salesforce projects. The Salesforce Trivia extension for Visual Studio Code aims to simplify these common Salesforce development workflows, allowing you to access and execute these tasks directly from within your development environment.
 
-## Features
+This extension provides a set of user-friendly commands that abstracts the underlying Salesforce CLI commands, making it more convenient for you to manage your Salesforce development processes. By using this extension, you can save time and streamline your Salesforce development workflow, making it more efficient and productive.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+# Requirements
 
-For example if there is an image subfolder under your extension project workspace:
+Visual Studio Code
+Salesforce CLI installed and configured
 
-\!\[feature X\]\(images/feature-x.png\)
+# Features of Extension
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Salesforce Trivia Extension
 
-## Requirements
+The Salesforce Trivia extension for Visual Studio Code provides the following features:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. **Org List**: List all connected Salesforce orgs.
+2. **Org Login**: Log in to a Salesforce org using the web-based login flow.
+3. **Assign Permission Sets**: Assign permission sets to a list of users (from users.txt and permissionSets.txtfiles).
+4. **Deploy Metadata**: Deploy Salesforce metadata to a target org (start or validate deployment).
+5. **Create Project**: Create a new Salesforce project with a default package directory and a manifest file.
 
-## Extension Settings
+To use these features, simply invoke the corresponding command from the Visual Studio Code Command Palette (Ctrl+Shift+P or Cmd+Shift+P).
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+# Release Notes
 
-For example:
+**1.0.0**
 
-This extension contributes the following settings:
+Initial release of the Salesforce Trivia extension, providing the following features:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Org List
+Org Login
+Assign Permission Sets
+Deploy Metadata
+Create Project
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

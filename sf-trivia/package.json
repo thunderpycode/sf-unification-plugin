@@ -2,6 +2,7 @@
   "name": "sf-trivia",
   "displayName": "SF Trivia",
   "description": "This is latest SF commands",
+  "publisher": "sf-trivia",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -15,11 +16,23 @@
     "commands": [
       {
         "command": "sf-trivia.sf.orgList",
-        "title": "Org List"
+        "title": "Trivia - Org List"
       },
       {
         "command": "sf-trivia.sf.orgLogin",
-        "title": "Org Login"
+        "title": "Trivia - Org Login"
+      },
+      {
+        "command": "sf-trivia.sf.assignPermissionSets",
+        "title": "Trivia - Assign Permission Sets"
+      },
+      {
+        "command": "sf-trivia.sf.deploy",
+        "title": "Trivia - Deploy Trivia Project"
+      },
+      {
+        "command": "sf-trivia.sf.createProject",
+        "title": "Trivia - Create Saleforce project"
       }
     ]
   },
@@ -36,5 +49,9 @@
     "typescript": "^5.4.5",
     "@vscode/test-cli": "^0.0.8",
     "@vscode/test-electron": "^2.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-repository.git"
   }
 }
