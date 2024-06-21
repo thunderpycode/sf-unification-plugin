@@ -1,4 +1,6 @@
-# sf-trivia Introduction
+# sf-trivia Summary
+
+The Salesforce CLI unification is a significant step forward in the Salesforce development ecosystem, as it consolidates various Salesforce-related commands and functionalities into a single, unified interface. The Salesforce Trivia extension leverages this unification to provide a more cohesive and user-friendly experience, helping you to stay productive and focused on your Salesforce development efforts.  
 
 As a Salesforce developer, you often need to perform various tasks such as listing your connected Salesforce orgs, logging in to an org, assigning permission sets to users, deploying metadata, and creating new Salesforce projects. The Salesforce Trivia extension for Visual Studio Code aims to simplify these common Salesforce development workflows, allowing you to access and execute these tasks directly from within your development environment.
 

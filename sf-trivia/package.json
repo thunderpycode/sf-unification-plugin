@@ -3,7 +3,7 @@
   "displayName": "SF Trivia",
   "description": "This is latest SF commands",
   "publisher": "sf-trivia",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -52,6 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-repository.git"
-  }
+    "url": "https://github.com/thunderpycode/sf-unification-plugin.git"
+  },
+  "license": "MIT"
 }
