@@ -3,6 +3,7 @@
   "displayName": "SF Trivia",
   "description": "This is latest SF commands",
   "publisher": "sf-trivia",
+  "icon":"trivia-icon.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.89.0"

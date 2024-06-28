@@ -1,4 +1,4 @@
-# sf-trivia Summary
+# Sf-Trivia Summary
 
 The Salesforce CLI unification is a significant step forward in the Salesforce development ecosystem, as it consolidates various Salesforce-related commands and functionalities into a single, unified interface. The Salesforce Trivia extension leverages this unification to provide a more cohesive and user-friendly experience, helping you to stay productive and focused on your Salesforce development efforts.  
 
